@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="theme-color" content="#1677ff" />
+    <link rel="prefetch" href="/IntelligentLogisticsShow/seed/s.bin" />
     <title>智能物流管理系统</title>
-    <script type="module" crossorigin src="./assets/0BW4yU89.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/vendor-D_6rUeiC.js">
-    <link rel="stylesheet" crossorigin href="./assets/B36mlCA0.css">
+    <script type="module" crossorigin src="/IntelligentLogisticsShow/assets/DIVYX2Ab.js"></script>
+    <link rel="modulepreload" crossorigin href="/IntelligentLogisticsShow/assets/vendor-BWi_9HA1.js">
+    <link rel="stylesheet" crossorigin href="/IntelligentLogisticsShow/assets/EIkhpa40.css">
   </head>
   <body>
-    <div id="app"></div>
+    <!-- 首屏要下的 JS 比图片大一个数量级，这里先放一帧静态骨架：
+         样式全部写成行内，避免和稍后注入的 global.css 打架，Vue 挂载时整块被替换掉。 -->
+    <div id="app">
+      <div style="min-height:100vh;background:#f5f7fa;font-family:system-ui,-apple-system,'Segoe UI',sans-serif">
+        <div style="height:64px;background:#fff;border-bottom:1px solid #eef0f3"></div>
+        <div style="max-width:1180px;margin:0 auto;padding:40px 24px;display:flex;gap:24px;flex-wrap:wrap">
+          <div style="flex:1 1 320px;height:220px;border-radius:12px;background:#fff"></div>
+          <div style="flex:1 1 320px;height:220px;border-radius:12px;background:#fff"></div>
+        </div>
+        <p style="text-align:center;color:#8c95a5;font-size:13px;margin:0">正在加载演示程序…</p>
+      </div>
+    </div>
   </body>
 </html>
